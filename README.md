@@ -1,6 +1,6 @@
 # True or False Quiz
 ![Project Preview](Screenshot_1.png)
-A simple Android quiz app written in Kotlin. It loads true/false questions from the [Open Trivia DB](https://opentdb.com) API and keeps track of the score.
+# A simple Android quiz app written in Kotlin. It loads true/false questions from the [Open Trivia DB](https://opentdb.com) API and keeps track of the score.
 
 ## Features
 
