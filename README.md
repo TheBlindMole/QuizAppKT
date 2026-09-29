@@ -8,14 +8,6 @@ A simple Android quiz app written in Kotlin. It loads true/false questions from 
 - Shows one question at a time with True and False buttons
 - Live score and final score
 - Decodes HTML entities in the question text
-- Gray background and blue buttons
-
-## Tech stack
-
-- Kotlin
-- Android Views (XML layouts)
-- Retrofit and Gson for networking
-- Coroutines with `lifecycleScope`
 
 ## API
 
@@ -24,30 +16,6 @@ Endpoint used:
 ```
 https://opentdb.com/api.php?amount=10&type=boolean
 ```
-
-Example response:
-
-```json
-{
-  "response_code": 0,
-  "results": [
-    {
-      "type": "boolean",
-      "difficulty": "easy",
-      "category": "Science: Computers",
-      "question": "The logo for Snapchat is a Bell.",
-      "correct_answer": "False",
-      "incorrect_answers": ["True"]
-    }
-  ]
-}
-```
-
-Notes:
-
-- Questions are only available in English.
-- The API allows 1 request every 5 seconds per IP. Fetch all questions in a single call.
-- Response code `0` means success. Code `5` means too many requests.
 
 ## Project structure
 
